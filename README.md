@@ -10,6 +10,12 @@
 
 note: the fine-tuning is *specific to each version of LLaVA*. These fine-tuning scripts work for LLaVA v1.5 - later versions require different scripts.
 
+For the step-by-step instructions see the [Fine tuning README](./README.finetuning.md) (QLORA training).
+
+For more details - see my [Fine-tuning Medium article](https://medium.com/p/2ba46b7dcec9) or the original [Weights and Biases article](https://wandb.ai/byyoung3/ml-news/reports/How-to-Fine-Tune-LLaVA-on-a-Custom-Dataset--Vmlldzo2NjUwNTc1) that inspired this fork.
+
+For a guide on how to host LLaVA on AWS - see [Self-hosting a vision based LLM on AWS EC2 — LLaVA](https://medium.com/@mr.sean.ryan/self-hosting-vision-based-llm-on-aws-ec2-llava-62cdcfd7bc03).
+
 ---
 
 [[Project Page](https://llava-vl.github.io/)] [[Demo](https://llava.hliu.cc/)]  [[Data](https://github.com/haotian-liu/LLaVA/blob/main/docs/Data.md)] [[Model Zoo](https://github.com/haotian-liu/LLaVA/blob/main/docs/MODEL_ZOO.md)]
