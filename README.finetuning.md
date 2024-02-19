@@ -45,7 +45,9 @@ python prep_data__OK-VQA__sr.py
 ./download_llava_weights__sr.sh
 ```
 
-5. review the script below, and the comments section
+5. review the script below, and the comments section.
+
+You need to check the values for xxx to match your hardware.
 
 ```
 cat ./train_qlora__wandb.sh
@@ -70,7 +72,7 @@ cat ./train_qlora__wandb.sh
 To infer with a given prompt and image:
 
 ```
-./infer_qlora_v1.5__wandb.sh
+./infer_qlora_v1.5__wandb.sh <path to image> "my prompt"
 ```
 
 To infer WITHOUT the lora layer (to see the behaviour BEFORE fine-tuning):
